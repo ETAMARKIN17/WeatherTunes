@@ -25,7 +25,6 @@ def weather_forecast():
     correct_city = False
     while not correct_city:
         city = input("Enter your city: ")
-        # WEATHER_API_KEY = get_weather_api_key()
         url = f'http://api.weatherapi.com/v1/current.json?key={WEATHER_API_KEY}&q={city}'
         response = requests.get(url)
 
@@ -65,8 +64,6 @@ def users_activity():
 
 # function to get query words from chat GPT's API
 def gpt_query_words():
-    # GPT_API_KEY = get_gpt_api_key()
-
     # create an OpenAPI client using the key from our environment variable
     client = OpenAI(
         api_key=GPT_API_KEY,
