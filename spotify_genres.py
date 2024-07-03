@@ -1,4 +1,5 @@
-genres = [  # Not literally all the genres, but a lot of popular ones
+# List of popular music genres for user selection
+genres = [ 
     "acoustic",
     "afrobeat",
     "alternative",
