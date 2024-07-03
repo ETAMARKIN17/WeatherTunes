@@ -17,7 +17,7 @@ GPT_API_KEY = os.getenv('GPT_API_KEY')
 def welcome_user():
     """
     Prints a welcome message to the user.
-    
+
     Returns:
     - True
     """
@@ -31,7 +31,7 @@ def welcome_user():
 def weather_forecast():
     """
     Fetches weather forecast for a specified city using WeatherAPI.
-    
+
     Returns:
     - Tuple containing weather statistics (temperature in Fahrenheit and weather condition) and city name.
     """
@@ -69,7 +69,7 @@ def weather_forecast():
 def users_activity():
     """
     Prompts user to input their current activity.
-    
+
     Returns:
     - String containing user's activity.
     """
